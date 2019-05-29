@@ -94,7 +94,7 @@ public class RNFetchBlob extends ReactContextBaseJavaModule {
                 RNFetchBlobFS.createFile(path, content, encode, promise);
             }
         });
-    }
+    } 
 
     @ReactMethod
     public void createFileASCII(final String path, final ReadableArray dataArray, final Promise promise) {
